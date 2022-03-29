@@ -1,6 +1,6 @@
 # Advanced Process Control for Atmospheric Pressure Plasmas
 
-The work in this repository is done in the Chemical and Biomolecular Engineering Department at University of California, Berkeley in the [**Mesbah Lab**](http://www.mesbahlab.com/)
+Updates to the work in this repository is done in the Chemical and Biomolecular Engineering Department at University of California, Berkeley in the [**Mesbah Lab**](http://www.mesbahlab.com/).
 
 *This repository was last updated March 2022*
 
