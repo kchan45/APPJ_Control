@@ -32,7 +32,9 @@ The Arduino firmware allows exchanging commands with the Arduino via serial moni
 
 ## Software
 *Beginning Summer 2020, the APPJ was moved, and some software components have changed significantly.*
+
 Detailed information about the software is under [/Software](https://github.com/kchan45/APPJ_Control/tree/master/Software). Bulk of the software is written in Python and can be easily modified for different applications. There is a client-server architecture in place based on TCP/IP protocol. This allows information exchange with the data aquisiton software and allows for complicated calculations to be done on external computers, on the cloud etc.
+
 *As of Summer 2020, the client-server architecture has been removed. All information exchange and data acquisition should be done on an external computer connected to the setup. Detailed information regarding this change will be added soon...*
 
 ## Original Academic Publications
