@@ -40,4 +40,4 @@ Detailed information about the software is under [/Software](https://github.com/
 doi: 10.1109/TRPMS.2017.2764629
 *  D. Gidon, D. B. Graves, and A. Mesbah, [“Effective dose delivery in atmospheric pressure plasma jets for plasma medicine: A model predictive control approach,”](http://iopscience.iop.org/article/10.1088/1361-6595/aa7c5d/meta) Plasma Sources Sci. Technol., vol. 26, no. 8, pp. 85005–85019, 2017.
 
-*This repository has been forked and modified from [**APPJ_Control**](https://github.com/dgngdn/APPJ_Control) by Dogan Gidon*
+*This repository has been forked and modified from [**APPJ_Control**](https://github.com/dgngdn/APPJ_Control) by Dogan Gidon, and previous editions of this project were done in collaboration with the [**Graves Lab**](https://graveslab.org)*
