@@ -1,0 +1,120 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/libuvc/libuvc.h
+stdio.h
+-
+libusb-1.0/libusb.h
+-
+libuvc/libuvc_config.h
+-
+errno.h
+-
+
+../include/libuvc/libuvc_internal.h
+assert.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+pthread.h
+-
+signal.h
+-
+utlist.h
+../include/libuvc/utlist.h
+libgen.h
+-
+
+../include/utlist.h
+
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/ctrl-gen.c
+libuvc/libuvc.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc.h
+libuvc/libuvc_internal.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc_internal.h
+
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/ctrl.c
+libuvc/libuvc.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc.h
+libuvc/libuvc_internal.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc_internal.h
+
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/device.c
+libuvc/libuvc.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc.h
+libuvc/libuvc_internal.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc_internal.h
+
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/diag.c
+libuvc/libuvc.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc.h
+libuvc/libuvc_internal.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc_internal.h
+
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/frame.c
+libuvc/libuvc.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc.h
+libuvc/libuvc_internal.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc_internal.h
+
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/init.c
+libuvc/libuvc.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc.h
+libuvc/libuvc_internal.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc_internal.h
+
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/misc.c
+string.h
+-
+stdlib.h
+-
+
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/stream.c
+libuvc/libuvc.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc.h
+libuvc/libuvc_internal.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/libuvc/libuvc_internal.h
+time_mac.h
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/time_mac.h
+
+/Users/adbonzanini/Box Sync/APPJ control codes/libuvc/src/time_mac.h
+stdio.h
+-
+stdlib.h
+-
+sys/time.h
+-
+mach/mach_time.h
+-
+mach/mach.h
+-
+mach/clock.h
+-
+
+/opt/local/include/libusb-1.0/libusb.h
+stdint.h
+-
+sys/types.h
+-
+sys/time.h
+-
+time.h
+-
+limits.h
+-
+windows.h
+-
+winsock.h
+-
+
+include/libuvc/libuvc_config.h
+

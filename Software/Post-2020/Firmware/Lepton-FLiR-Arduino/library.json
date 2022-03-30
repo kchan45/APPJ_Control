@@ -1,0 +1,49 @@
+{
+    "name": "Lepton-FLiR-Arduino",
+    "version": "0.9.91",
+    "keywords": "Lepton, FLiR, forward looking, infrared, thermal, camera, i2c, spi, controller, driver",
+    "description": "Library to control a Lepton FLiR (forward looking infrared) thermal camera module from an Arduino-like board (Teensy 3+/ESP32+ minimum).",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NachtRaveVL",
+            "email": "nachtravevl@gmail.com",
+            "url": "https://github.com/NachtRaveVL",
+            "maintainer": true
+        }
+    ],
+    "homepage": "https://github.com/NachtRaveVL/Lepton-FLiR-Arduino/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NachtRaveVL/Lepton-FLiR-Arduino.git"
+    },
+    "examples": [
+        {
+            "name": "SimpleExample",
+            "base": "examples/SimpleExample",
+            "files": ["SimpleExample.ino"]
+        },
+        {
+            "name": "AdvancedExample",
+            "base": "examples/AdvancedExample",
+            "files": ["AdvancedExample.ino"]
+        },
+        {
+            "name": "ImageCaptureExample",
+            "base": "examples/ImageCaptureExample",
+            "files": ["ImageCaptureExample.ino"]
+        },
+        {
+            "name": "SoftwareI2CExample",
+            "base": "examples/SoftwareI2CExample",
+            "files": ["SoftwareI2CExample.ino"]
+        },
+        {
+            "name": "ModuleInfo",
+            "base": "examples/ModuleInfo",
+            "files": ["ModuleInfo.ino"]
+        }
+    ],
+    "frameworks": ["arduino", "espidf"],
+    "platforms": ["teensy", "espressif32"]
+}
