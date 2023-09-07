@@ -40,21 +40,21 @@ time.sleep(0.5)
 
 quit = False
 while(quit==False):
-	try:
-		time.sleep(0.2)
-		stringInput = input(">> Set desired values of power and flow as P,q (type quit to exit): ")
-		powerIn, flowIn = stringInput.split(',')
-		if(powerIn!=-1 and flowIn!=-1):
-			os.system("echo \"w,"+str(powerIn)+"\" > " + arduinoAddress)
-			time.sleep(0.1)
-			os.system("echo \"q,"+str(flowIn)+"\" > " + arduinoAddress)
-			print("Inputs sent! P = " + str(powerIn)+ " and q = " + str(flowIn))
-	except:
-		if(stringInput=="quit"):
-			quit=True
-		else:
-			print("Invalid input. Pass two inputs separated by a comma.")
-			pass
+    try:
+        time.sleep(0.2)
+        stringInput = input(">> Set desired values of power and flow as P,q (type quit to exit): ")
+        powerIn, flowIn = stringInput.split(',')
+        if(powerIn!=-1 and flowIn!=-1):
+            os.system("echo \"w,"+str(powerIn)+"\" > " + arduinoAddress)
+            time.sleep(0.1)
+            os.system("echo \"q,"+str(flowIn)+"\" > " + arduinoAddress)
+            print("Inputs sent! P = " + str(powerIn)+ " and q = " + str(flowIn))
+    except:
+        if(stringInput=="quit"):
+            quit=True
+        else:
+            print("Invalid input. Pass two inputs separated by a comma.")
+            pass
 
 os.chdir(directory)
 print("\n##########################################################################################################################################################################################")
